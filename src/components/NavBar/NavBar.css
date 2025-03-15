@@ -1,0 +1,106 @@
+.navbar {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.navbar-welcome {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-name h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.user-name p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.login-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.login-btn,
+.signup-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: transparent;
+    color: #075e54;
+    border: 1px solid #075e54;
+}
+
+.signup-btn {
+    background-color: #075e54;
+    color: #fff;
+    border: 1px solid #075e54;
+}
+
+.notifications-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.notification-icon {
+    color: #ffcc00;
+}
+
+.logout-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}

@@ -1,0 +1,10 @@
+.home-page {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding-bottom: 80px;
+    /* Para el footer fijo */
+}
+
+.main-content {
+    padding-top: 1rem;
+}

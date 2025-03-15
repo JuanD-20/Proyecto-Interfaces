@@ -1,0 +1,39 @@
+.zone-navigation {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.zone-navigation h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.zone-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.zone-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #075e54;
+    color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.zone-item:hover {
+    background-color: #064740;
+}
+
+.zone-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
