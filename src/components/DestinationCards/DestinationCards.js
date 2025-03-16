@@ -9,25 +9,25 @@ const DestinationCards = () => {
             id: 1,
             name: 'JAVERIANA CALI',
             address: 'Cl. 18 #118-250, Barrio Pance, Cali, Valle del Cauca',
-            image: '/images/javeriana.jpg'
+            image: '../../../images/javeriana.jpg'
         },
         {
             id: 2,
             name: 'ICESI',
             address: 'Cl. 18 #122-135, Pance, Cali, Valle del Cauca',
-            image: '/images/icesi.jpg'
+            image: '../../../images/icesi.jpg'
         },
         {
             id: 3,
             name: 'UNIVERSIDAD DEL VALLE',
             address: 'Cl. 13 #100-00, Cali, Valle del Cauca',
-            image: '/images/univalle.jpg'
+            image: '../../../images/univalle.jpg'
         },
         {
             id: 4,
             name: 'UNIVERSIDAD AUTÓNOMA',
             address: 'Cl. 25 #115-85, Cali, Valle del Cauca',
-            image: '/images/autonoma.jpg'
+            image: '../../../images/autonoma.jpeg'
         }
     ];
 

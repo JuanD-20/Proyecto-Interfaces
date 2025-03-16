@@ -22,7 +22,7 @@ const Login = () => {
                     id: 1,
                     name: 'NEW USER',
                     email,
-                    avatar: '/images/avatar.jpg'
+                    avatar: '../../images/defaultProfile.jpg'
                 };
                 dispatch(loginSuccess(userData));
                 navigate('/');

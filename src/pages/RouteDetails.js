@@ -12,7 +12,7 @@ const RouteDetails = () => {
         id,
         name: 'JAVERIANA CALI',
         address: 'Cl. 18 #118-250, Barrio Pance, Cali, Valle del Cauca',
-        image: '/images/javeriana.jpg',
+        image: '../../images/javeriana.jpg',
         drivers: [
             {
                 id: 1,
