@@ -19,7 +19,7 @@ const SearchBar = () => {
                     <span className="search-icon">🔍</span>
                     <input
                         type="text"
-                        placeholder="Buscar rupo"
+                        placeholder="Buscar cupo"
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                     />

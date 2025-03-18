@@ -22,7 +22,7 @@ const NavBar = () => {
                     {isLoggedIn ? (
                         <div className="user-info">
                             <div className="user-avatar">
-                                <img src={user.avatar || '/default-avatar.png'} alt="User Avatar" />
+                                <img src={user.avatar || '../../images/defaultProfile.jpg'} alt="User Avatar" />
                             </div>
                             <div className="user-name">
                                 <h3>Welcome!</h3>

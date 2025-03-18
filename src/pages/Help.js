@@ -19,7 +19,7 @@ const Help = () => {
         },
         {
             question: '¿Cómo se manejan los pagos?',
-            answer: 'Por ahora, los pagos se realizan directamente entre conductor y pasajero. Pronto implementaremos métodos de pago dentro de la plataforma.'
+            answer: 'Por ahora, los pagos se realizan directamente entre conductor y pasajero.'
         },
         {
             question: '¿Cómo puedo reportar un problema?',
