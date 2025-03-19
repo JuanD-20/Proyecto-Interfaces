@@ -28,7 +28,7 @@ const Signup = () => {
                 id: Math.floor(Math.random() * 1000),
                 name,
                 email,
-                avatar: '/images/default-avatar.png'
+                avatar: '../../images/defaultProfile.jpg'
             };
             dispatch(loginSuccess(userData));
             navigate('/');
