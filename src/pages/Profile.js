@@ -29,6 +29,10 @@ const Profile = () => {
         alert('Perfil actualizado con éxito');
     };
 
+    const handleToggleChange = () => {
+        setIsDriver(!isDriver);
+    };
+
     return (
         <div className="profile-page">
             <NavBar />
@@ -85,14 +89,18 @@ const Profile = () => {
                                 onChange={(e) => setUniversity(e.target.value)}
                             />
                         </div>
-                        <div className="form-group">
-                            <label className="checkbox-label">
-                                <input
-                                    type="checkbox"
-                                    checked={isDriver}
-                                    onChange={(e) => setIsDriver(e.target.checked)}
-                                />
+                        <div className="form-group toggle-container">
+                            <label className="toggle-label">
                                 <span>Quiero ser conductor</span>
+                                <div className="toggle-switch">
+                                    <input
+                                        type="checkbox"
+                                        checked={isDriver}
+                                        onChange={handleToggleChange}
+                                        className="toggle-input"
+                                    />
+                                    <span className="toggle-slider"></span>
+                                </div>
                             </label>
                         </div>
                         {isDriver && (
