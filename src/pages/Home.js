@@ -17,7 +17,6 @@ const Home = () => {
                 <DestinationCards />
                 <ZoneNavigation />
             </div>
-            <Footer />
         </div>
     );
 };

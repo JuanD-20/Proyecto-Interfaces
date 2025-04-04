@@ -63,7 +63,6 @@ const Help = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 };

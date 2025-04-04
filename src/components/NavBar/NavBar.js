@@ -38,8 +38,10 @@ const NavBar = () => {
                             {showDropdown && (
                                 <div className="user-dropdown">
                                     <ul>
+                                        <li><Link to="/">Inicio</Link></li>
                                         <li><Link to="/profile">Mi Perfil</Link></li>
-                                        <li><Link to="/settings">Configuración</Link></li>
+                                        <li><Link to="/schedule">Programa tu ruta</Link></li>
+                                        <li><Link to="/help">Ayuda</Link></li>
                                         <li><button onClick={handleLogout}>Cerrar Sesión</button></li>
                                     </ul>
                                 </div>

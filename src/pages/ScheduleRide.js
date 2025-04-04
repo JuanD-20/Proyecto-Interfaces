@@ -167,7 +167,6 @@ const ScheduleRide = () => {
                     </button>
                 </form>
             </div>
-            <Footer />
         </div>
     );
 };
